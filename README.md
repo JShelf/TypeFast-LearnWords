@@ -2,7 +2,7 @@
 
 ## Steps
 ### Word Learning
-* Dictionary from this [github page](https://raw.githubusercontent.com/lorenbrichter/Words/master/Words/en.txt) (really high availability <3mb) it's got some abbreviations so those might need to be filtered
+* Dictionary from this [github page](https://raw.githubusercontent.com/matthewreagan/WebstersEnglishDictionary/master/dictionary_compact.json) (really high availability <3mb) it's got some abbreviations so those might need to be filtered
 * Grabs uncommon/interesting words
   * ~~How do I determine they are uncommon or interesting?~~
     * Take the most common [10000 words](https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english.txt) 
