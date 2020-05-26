@@ -20,3 +20,21 @@
   * Prompt Length
   * Capitals
   * Punctuation
+
+
+
+### MVP
+* launchable client 
+* prompts user with sentence with atleast one interesting word
+* dictionary link to that word or a way to hover it and see what the word means
+
+
+### Architecture
+* Backend on Node.js
+  * Main page(Typing Game/Dictionary) will be on a scalable node
+  * Everything else: login, stats, options will be together and non-scalable
+* Docker for quick deployment
+* CI/CD
+  * ???
+* AWS EC2 behind cloudflare
+* Eventually Kubernetes???
