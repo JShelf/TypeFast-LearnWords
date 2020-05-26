@@ -16,5 +16,6 @@ totalSize=0
 for x in EnglishDictionaryJson:
     totalSize+=len(x)
 
-
-print(printRandomWord(EnglishDictionaryJson))
+with open('interestingDictionary.json','a') as dictionaryFile:
+    dictionaryFile.write(str(EnglishDictionaryJson))
+    
